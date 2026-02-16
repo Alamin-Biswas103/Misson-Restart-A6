@@ -35,20 +35,20 @@
                     </div>
                     <ul tabindex="-1"
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a>Home</a></li>
-                        <li><a>Products</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Contacts</a></li>
+                        <li class="nav-item active"><a>Home</a></li>
+                        <li class="nav-item"><a>Products</a></li>
+                        <li class="nav-item"><a>About</a></li>
+                        <li class="nav-item"><a>Contacts</a></li>
                     </ul>
                 </div>
                 <a class="btn btn-ghost text-xl text-blue-700 font-bold">SwiftCart</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1 font-semibold">
-                    <li><a>Home</a></li>
-                    <li><a>Products</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Contacts</a></li>
+                    <li class="nav-item active"><a>Home</a></li>
+                    <li class="nav-item"><a>Products</a></li>
+                    <li class="nav-item"><a>About</a></li>
+                    <li class="nav-item"><a>Contacts</a></li>
                 </ul>
             </div>
             <div class="navbar-end">
@@ -121,6 +121,17 @@
         </div>
     </section>
 
+    <!-- Product Section -->
+     <section class="mx-[5%] mb-10">
+        <h1 class="sm:text-2xl lg:text-4xl font-bold my-6">Trending Now</h1>
+        <div id="trending-products" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+        </div>
+     </section>
+
+
+      <script src="js/trending-products.js"></script>
+    <script src="js/active-btn.js"></script>
 </body>
 
 </html>
