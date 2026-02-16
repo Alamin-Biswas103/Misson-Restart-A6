@@ -29,13 +29,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5%;
+    padding: 0 0;
 }
 
 .title {
     font-weight: 600;
-    color: gray;
-    height: 60px;
+    color: #808080;
+    height: 50px;
     padding: 10px 0;
 }
 
