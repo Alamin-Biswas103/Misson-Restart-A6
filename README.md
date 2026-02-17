@@ -70,15 +70,26 @@ https://fakestoreapi.com/products/1
 > **⚠️ Warning:** Do not use any AI tools to answer these questions. You must write the answers in **Bangla**.
 
 #### 1) What is the difference between `null` and `undefined`?
+Undefined হলো যখন কোনো ভ্যালু ভ্যারিয়েবল ডিক্লেয়ার করা হয়না বা ভ্যালু এসাইন করা হয়না । অন্যদিকে null হলো যখন প্রোগ্রামার ইচ্ছাকৃত কোন ভ্যারিয়েবল এ ভ্যালু এসাইন না করে ফাকা রাখতে চায় ।
+বলা যায় Undefined হলো এরর কিন্তু Null হলো একটা ক্রাইটেরিয়া যা ভুল নয় । 
 
 #### 2) What is the use of the `map()` function in JavaScript? How is it different from `forEach()`?
+কোনো এরে এর ভ্যালুর উপর লুপ চালাতে ম্যাপ ব্যবহৃত হয় , লুপ চালিয়ে রিটার্ন পেতে চাইলে ম্যাপ ব্যবহৃত হয় অন্যদিকে forEach ও সেম ভাবে লুপ চালায় কিন্তু সে কোনো কিছু রিটার্ন করেনা
 
 #### 3) What is the difference between `==` and `===`?
+ডাবল ইকুয়াল শুধু ভ্যালু চেক করে কিন্তু ভ্যালু এর টাইপ চেক করেনা অন্যদিকে ট্রিপল ইকুয়াল টাইপ চেক করে দেন ভ্যালু চেক করে ।  ট্রিপল ইকুয়াল ব্যাবহার প্রেফারেরড
 
-#### 4) What is the significance of `async`/`await` in fetching API data?
+### 4) What is the significance of `async`/`await` in fetching API data?
+ডাটাগুলো একটার পর একটা বা সিকুয়েন্সিয়ালি কাজ করানোর জন্য async/await ব্যবহার করা হয় ।
 
 #### 5) Explain the concept of Scope in JavaScript (Global, Function, Block).
+ স্কোপ হলো একটা ভ্যারিয়েবল ডিক্লেয়ার করার পর কোথা থেকে একে এক্সেস করা যাবে । 
+ গ্লোবাল স্কোপ হলো ফাইলের সব জায়গা থেকেই একে এক্সেস করা যাবে যেমন  var দিয়ে ডিক্লেয়ার করা ভ্যারিয়েবল
 
+ ফাংশন স্কোপ হলো শুধুমাত্র একটি ফাংশন (যেই ফাংশনের মধ্যে ভ্যারিয়েবল ডিক্লেয়ার করা হয়েছে সেই ফাংশন) এর মধ্যে থেকে এক্সেস করা যাবে
+
+ ব্লক স্কোপ হলো কোনো একটা নির্দিষ্ট এরিয়ার মধ্যে থেকে তাকে এক্সেস করা যায় , যেমন if এর ব্লক .
+    
 ## ⚡ Dynamic Features & Functionalities
 
 1) Category Loading
